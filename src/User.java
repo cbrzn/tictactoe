@@ -2,6 +2,7 @@ public class User {
 
 	private String name;
 	private String token;
+	private int score;
 	
 	public String getName() {
 		return name;
@@ -14,6 +15,12 @@ public class User {
 	}
 	public void setToken(String token) {
 		this.token = token;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
 	}
 	
 	
